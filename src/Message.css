@@ -1,0 +1,51 @@
+.user{
+    font-size: 12px;
+    color: gray;
+    padding-left: 8px;
+    font-weight: 100;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+}
+.left{
+    width: fit-content;
+    padding: .5vh 3vh 2.5vh;
+    box-shadow: 5px 1px 13px 1px #80808078;  
+    margin: 0 auto 0 5px;  
+    border-radius: 5px;
+    position: relative;
+}
+.right{
+    width: fit-content;
+    padding: .5vh 3vh 2.5vh;
+    margin: 0 5px 0 auto;
+    box-shadow: 5px 1px 13px 1px #80808078;
+    border-radius: 5px;
+    background: #00aee2;
+    color: white;
+    position: relative;
+}
+.right .user{
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    *{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+        padding-top:5px;
+    }
+    .user{
+        font-size: 8px;
+    }
+    .MuiFormControl-root{
+        font-size: 18px;
+        width: 90%;
+        margin-bottom: 12px;
+        margin: 5px auto 10px auto !important;
+    }
+    button{
+        font-size: 18px;
+    }
+}
